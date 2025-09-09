@@ -21,9 +21,9 @@
 </head>
 
 <body style="display: flex; justify-content: center; align-items: center; height: 100vh;">
-    <form style="display: flex; flex-direction: column; gap: 10px">
-        <label style="display: flex; flex-direction: column;">Name: <input required /></label>
-        <label style="display: flex; flex-direction: column;">Mail: <input required /></label>
+    <form style="display: flex; flex-direction: column; gap: 10px" onsubmit="ym(104080090,'reachGoal','yandex_metrica_test_form_submission')">
+        <label style="display: flex; flex-direction: column;">Name: <input onblur="ym(104080090,'reachGoal','yandex_metrica_test_fill_name')" required /></label>
+        <label style="display: flex; flex-direction: column;">Mail: <input onblur="ym(104080090,'reachGoal','yandex_metrica_test_fill_email')" required /></label>
         <button>Submit</button>
     </form>
 </body>
